@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'Minecraft Ten';
+    src: url('fonts/mcten.ttf');
+}
+
+  @font-face {
+  font-family: "Avenir Next";
+  font-weight: 400;
+  font-style: normal;
+  src: url("//minecraftshop.com/cdn/fonts/avenir_next/avenirnext_n4.a215e32cfe88cf9d4fdb0f6b32ea5475eb767bb3.woff2?h1=bWluZWNyYWZ0Lm5ldA&h2=bWluZWNyYWZ0c2hvcC5jb20&h3=bWljcm9zb2Z0LW1pbmVjcmFmdC5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=5c61ad7398dfc7b84ff02bb3dc7a86c1c2014e7cab76c9e1fe184fd59ec0573c") format("woff2"),
+       url("//minecraftshop.com/cdn/fonts/avenir_next/avenirnext_n4.c9ac86770f5e7f210c71cfd1bcb751618a1db6b3.woff?h1=bWluZWNyYWZ0Lm5ldA&h2=bWluZWNyYWZ0c2hvcC5jb20&h3=bWljcm9zb2Z0LW1pbmVjcmFmdC5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=06a6b74f48b2ce0e87352e1de1a2b4a3c56b431edc06913856c9f3584f86df80") format("woff");
+}
+
+  @font-face {
+  font-family: "Avenir Next";
+  font-weight: 400;
+  font-style: normal;
+  src: url("//minecraftshop.com/cdn/fonts/avenir_next/avenirnext_n4.a215e32cfe88cf9d4fdb0f6b32ea5475eb767bb3.woff2?h1=bWluZWNyYWZ0Lm5ldA&h2=bWluZWNyYWZ0c2hvcC5jb20&h3=bWljcm9zb2Z0LW1pbmVjcmFmdC5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=5c61ad7398dfc7b84ff02bb3dc7a86c1c2014e7cab76c9e1fe184fd59ec0573c") format("woff2"),
+       url("//minecraftshop.com/cdn/fonts/avenir_next/avenirnext_n4.c9ac86770f5e7f210c71cfd1bcb751618a1db6b3.woff?h1=bWluZWNyYWZ0Lm5ldA&h2=bWluZWNyYWZ0c2hvcC5jb20&h3=bWljcm9zb2Z0LW1pbmVjcmFmdC5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=06a6b74f48b2ce0e87352e1de1a2b4a3c56b431edc06913856c9f3584f86df80") format("woff");
+}
+
+
+  @font-face {
+  font-family: "Avenir Next";
+  font-weight: 600;
+  font-style: normal;
+  src: url("//minecraftshop.com/cdn/fonts/avenir_next/avenirnext_n6.dce2bdac497386d21072e6d18a9651d6fab43f93.woff2?h1=bWluZWNyYWZ0Lm5ldA&h2=bWluZWNyYWZ0c2hvcC5jb20&h3=bWljcm9zb2Z0LW1pbmVjcmFmdC5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=ffb65bdea8366d40d9d35e8f866352f290ca5cf525de6e1f0be234dfa7f7188a") format("woff2"),
+       url("//minecraftshop.com/cdn/fonts/avenir_next/avenirnext_n6.9df2d7c06ad4e10b1ac4f0c93cb9f6458139b786.woff?h1=bWluZWNyYWZ0Lm5ldA&h2=bWluZWNyYWZ0c2hvcC5jb20&h3=bWljcm9zb2Z0LW1pbmVjcmFmdC5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=a62c706d5f1170f7d9bb30f0b8a91e86534864107bf4542bf7d4248d360c4a8c") format("woff");
+}
+
+  @font-face {
+  font-family: "Avenir Next";
+  font-weight: 400;
+  font-style: italic;
+  src: url("//minecraftshop.com/cdn/fonts/avenir_next/avenirnext_i4.dc351b84dcd8bf9d60db95f16c8342c7d73e686a.woff2?h1=bWluZWNyYWZ0Lm5ldA&h2=bWluZWNyYWZ0c2hvcC5jb20&h3=bWljcm9zb2Z0LW1pbmVjcmFmdC5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=fede29904923449d20ca587300f8947975c861784839331e3a6242eea57b6718") format("woff2"),
+       url("//minecraftshop.com/cdn/fonts/avenir_next/avenirnext_i4.5bd452635465b184c6968b218dc6bfb7c2948ceb.woff?h1=bWluZWNyYWZ0Lm5ldA&h2=bWluZWNyYWZ0c2hvcC5jb20&h3=bWljcm9zb2Z0LW1pbmVjcmFmdC5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=9788b0ff088e37f91d9f92fab00d47204d0e54c12ed36d0d8840cc985e23d40b") format("woff");
+}
+
+  @font-face {
+  font-family: "Avenir Next";
+  font-weight: 600;
+  font-style: italic;
+  src: url("//minecraftshop.com/cdn/fonts/avenir_next/avenirnext_i6.5c0dfbe6d63f8213a55743f8572878c77de2e06d.woff2?h1=bWluZWNyYWZ0Lm5ldA&h2=bWluZWNyYWZ0c2hvcC5jb20&h3=bWljcm9zb2Z0LW1pbmVjcmFmdC5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=b4403826f610006197d61312ac239fae90251d8ac7d1a75033f4ef30d1df148a") format("woff2"),
+       url("//minecraftshop.com/cdn/fonts/avenir_next/avenirnext_i6.b8065c8fe77954062ff50cd5011fb2b0925f6cc2.woff?h1=bWluZWNyYWZ0Lm5ldA&h2=bWluZWNyYWZ0c2hvcC5jb20&h3=bWljcm9zb2Z0LW1pbmVjcmFmdC5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=ba02b4d8a1f85f87af64363a71ab960bd31c542519b3dedb0d708bfce144941c") format("woff");
+}
+
+@keyframes pulse {
+    0% { transform: translate(-50%, -50%) scale(1); }
+    50% { transform: translate(-50%, -50%) scale(1.08); }
+    100% { transform: translate(-50%, -50%) scale(1); }
+}
+
+header {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    height: 50px;
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+body {
+    font-family: 'Minecraft Ten', sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    font-size: 12px;
+}
+.logo {
+    width: 1140px;
+    max-width: 80%;
+    height: auto;
+    position: absolute;
+}
+.logo img {
+    width: 10%;
+    height: auto;
+    border-radius: 24px;
+}
+ .main-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: row;
+    gap: 40px;
+    font-family: 'Minecraft Ten', sans-serif;
+    font-size: 20px;
+}
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 0 0 gray, 0 2px 0 gray;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    padding: 8px 16px;
+    transition: background 0.2s, color 0.2s, border-color 0.2s;
+    margin-top: 30px;
+    z-index: 101;
+}
+nav a:hover{
+    text-decoration: none;
+    color: lawngreen;
+    border-bottom: 2px solid lawngreen;
+    text-shadow: 2px 0 0 darkgreen, 0 2px 0 darkgreen;
+}
+ .icons {
+     display: flex;
+    justify-content: right;
+    align-items: center;
+     gap: 20px;
+     top: 20px;
+     position: absolute;
+     right: 20px;
+     cursor: pointer;
+ }
+ .hero-image {
+     position: relative;
+     width: 100%;
+     max-width: 100%;
+     height: auto;
+
+ }
+.hero-image img {
+    width: 100%;
+    height: auto;
+}
+.hero-image:hover .shop-now-button {
+    animation: pulse 1s infinite;
+ }
+.hero-text{
+    font-family: 'Minecraft Ten', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 0 0 gray, 0 2px 0 gray;
+    position: absolute;
+    top: 50%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    cursor: default;
+}
+.hero-text h1, h2{
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+.normal-font {
+    font-family: "Avenir Next", sans-serif;
+    font-size: 20px;
+    color: white;
+    cursor: default;
+}
+.shop-now-button {
+    background: darkgreen;
+    color: white;
+    padding: 20px 20px;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    top: 15rem;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    cursor: pointer;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    top: 50px;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+    font-size: 30px;
+    background-color: darkgreen;
+    color: white;
+
+
+}
