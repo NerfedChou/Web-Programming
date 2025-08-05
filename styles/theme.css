@@ -142,7 +142,7 @@ nav a:hover{
     cursor: default;
 }
 .hero-text h1, h2{
-    margin-bottom: 0px;
+    margin-bottom: 0;
     margin-top: 0;
 }
 .normal-font {
