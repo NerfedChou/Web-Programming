@@ -1,0 +1,125 @@
+/* 
+
+rules of CSS use border to create a border around an element
+    - border: 2px solid white; creates a solid white border of 2 pixels
+    - after that you can know if the elements your modifying can reach 
+    that area or not ayaw sig binugo butang butang rakag bisag unsa antido 
+    - na buang nakog pina ngita sa imong gi pang butang yawa
+*/
+
+body {
+    background: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@font-face {
+    font-family: "Minecraft Ten";
+    src: url('fonts/mcten.ttf');
+}
+
+header {    
+    width: 99vw;
+    height: 99vh;
+    left: 0;
+    position: relative; 
+    top: 0;
+    display: flex;
+}
+
+header .logo {
+    /*border: 2px solid white;*/
+    position: relative;
+    width: 100px;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo img{
+    width: 100px;
+    max-height: 80%;
+    height: auto;
+    position: relative;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+nav {
+    /*border: 1px solid white;*/
+    position: sticky !important;
+    padding-left: 20vw;
+    padding-right: 5vw;
+    width: 50vw;
+    height: 7vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    background-color: black;
+    flex-wrap: nowrap;
+}
+
+nav div span {
+    font-family: "Minecraft Ten", sans-serif;
+    color: white;
+    font-size: 2vw, 2vh;
+    cursor: pointer;
+}
+
+nav div span:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.util-icons {
+    /*border: 1px solid white;*/
+    position: relative;
+    width: 20vw;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2vw;
+    left: 0%;
+    transform: scale(50%);
+    
+}
+
+.util-icons span {
+    cursor: pointer;
+}
+
+.util-icons span:hover path,
+.util-icons svg:hover ellipse{
+    stroke: green;
+}
+
+.util-icons svg:hover path {
+    fill: green;
+    cursor: pointer;
+}
+
+.hero {
+   /*border: 1px solid green;*/
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    align-items: center; 
+    justify-content: center;
+    display: flex;
+    color: green;
+    top: 6vh;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 1vh;
+    z-index: -1;
+    object-fit: cover;
+}
+
