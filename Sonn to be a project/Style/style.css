@@ -14,7 +14,7 @@ body {
 }
 @font-face {
     font-family: "Minecraft Ten";
-    src: url('fonts/mcten.ttf');
+    src: url("fonts/mc10.ttf");
 }
 
 header {    
@@ -64,7 +64,6 @@ nav {
 nav div span {
     font-family: "Minecraft Ten", sans-serif;
     color: white;
-    font-size: 2vw, 2vh;
     cursor: pointer;
 }
 
